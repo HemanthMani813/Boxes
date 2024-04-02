@@ -1,0 +1,37 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.box-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.small-box{
+    background-color: #fbbf24;
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+.large-box{
+    background-color: #ec4899;
+    height: 250px;
+    width: 250px;
+    color: white;
+}
+.medium-box{
+    background-color: #38bdf8;
+    height: 150px;
+    width: 150px;
+    color: white;
+    
+}
+
+@media screen and (min-width:768px){
+    .box-container{
+        display: flex;
+        flex-direction: row;
+    }
+}
